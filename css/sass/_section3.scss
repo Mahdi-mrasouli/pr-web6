@@ -1,0 +1,65 @@
+.offer {
+    background: radial-gradient(#fff, #ffd0a4);
+    
+    margin-top: 100px;
+
+    .row3 {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .col-2 { 
+            flex-basis: 25%;
+            min-width: 600px;
+            position: relative;
+            right: -50px;
+            top: -30px;
+
+            h1 {
+                font-size: 50px;
+                font-family: $primaryFontfamily;
+                color: $primaryColorHeading;
+                font-weight: 700;
+                margin: 25px 0;
+            }
+
+            p {
+                font-size: 18px;
+                font-family: $primaryFontfamily;
+                color: rgb(108, 127, 251);
+            }
+            small {
+                font-size: 18px;
+                display: block;
+                font-family: $primaryFontfamily;
+                color: $primaryColorText;
+            }
+
+            .button2 {
+                font-size: $primary16;
+                margin: 30px 0;
+                border-radius: 5px;
+                padding: 10px 25px;
+                color: $primaryColorText;
+                border: 5px solid #e2e2f6;
+                background-color: $primaryColorButton; 
+                color: white;
+
+                &:hover {
+                    border: 5px solid $primaryColorButton;  
+                    
+                         
+                }
+            }
+
+            img {
+                width: 80%;
+                padding: 50px 50px;
+                padding-bottom: 0;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            }
+        }
+    }
+    
+}

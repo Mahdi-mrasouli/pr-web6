@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/sass/main.css">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <img src="/images/logo.png" alt="logo" width="12%">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Home" class="link--elara">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#abouts">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#accounts">Account</a></li>
+                    <li><a href="#cart"><i class="fas fa-bag-shopping" style="color: rgb(102, 236, 243) ; font-size: 25px;"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-container row">
+            <div class="col-2">
+                <h1>The best quality, the best price</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veritatis voluptatem temporibus,
+                     nihil consequatur vitae dignissimos asperiores ducimus impedit quo.</p>
+                <button class="button">Explore Now &nbsp <i class="fas fa-arrow-right-long"></i></button>
+            </div>
+
+            <div class="col-2">
+                <div class="model">
+                    <model-viewer  src="models/myWebCharacterfinalgreen.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" exposure="1.5" min-camera-orbit="auto 80deg 3.683m" max-camera-orbit="auto 80deg auto" camera-orbit="150.3deg 80deg 3.683m" field-of-view="30deg" auto-rotate min-field-of-view="30deg"></model-viewer>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-nav-bar">  
+            <ul class="nav-bar-container">    
+                <li class="dropBtn"><a  href="#ٌWomen">WOMEN</i></a></li>               
+                <!-- <div class="dropdown-content">
+                    <div class="menuHeader"> -->
+
+                        <!-- <img src="images/productImg/p1.jpg" alt="" width="50px"> -->
+                        <!-- <h2>Women Cloths</h2>
+    
+                    </div>
+                    <div class="row2">
+                        <div class="column2">
+                            <h3>Category 1</h3>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                        <div class="column2">
+                            <h3>Category 2</h3>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                        <div class="column2">
+                            <h3>Category 3</h3>
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <li><a href="#Men">MEN</a></li>
+                <li><a href="#JEANS">JEANS</a></li>
+                <li><a href="#ICONS">ICONS</a></li>
+                <li><a href="#ٌSTYLETRIA">STYLE TRIAL</a></li>
+                <li><a href="#ٌBLOG">BLOG</a></li>
+                <li><a href="#COMMUNITY">COMMUNITY</a></li>
+                <li style="background-color: #c089c0 ; padding: 12px 0; margin:-12px 0 ; border-radius: 3px;" ><a style="border: none;" href="#Search">SEARCH <i class="fas fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+    <section style="background-color: #ececec; padding-bottom: 150px; padding-top: 50px;">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="4"
+            space-between="30" free-mode="true">
+            <swiper-slide><img src="/images/productImg/topsBanner.jpg" alt="product image"></swiper-slide>
+            <swiper-slide><img src="/images/productImg/p1.jpg" alt="product image"></swiper-slide>
+            <swiper-slide><img src="/images/productImg/p4.jpg" alt="product image"></swiper-slide>
+            <swiper-slide><img src="/images/productImg/p5.jpg" alt="product image"></swiper-slide>
+            <swiper-slide><img src="/images/productImg/p2.jpg" alt="product image"></swiper-slide>
+            <swiper-slide><img src="/images/productImg/p3.jpg" alt="product image"></swiper-slide>        
+        </swiper-container>
+
+    </section>
+    
+    
+    <section>
+        <div class="product-container">
+            <h2>Products</h2>
+            <div class="row3">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/productImg/p6.jpg">
+                        <h4>Portofino shirt</h4>
+                        <h5  class="offLine">$50.00</h5>
+                        <h5>$30.00</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/productImg/p7.jpg">
+                        <h4>Portofino shirt</h4>
+                        <h5  class="offLine">$50.00</h5>
+                        <h5>$30.00</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/productImg/p8.jpg">
+                        <h4>Portofino shirt</h4>
+                        <h5 class="offLine">$50.00</h5>
+                        <h5>$30.00</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/productImg/p2.jpg">
+                        <h4>Portofino shirt</h4>
+                        <h5  class="offLine">$50.00</h5>
+                        <h5>$30.00</h5>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="row3">
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="images/productImg/p6.jpg">
+                            <h4>Portofino shirt</h4>
+                            <h5  class="offLine">$50.00</h5>
+                            <h5>$30.00</h5>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="images/productImg/p2.jpg">
+                            <h4>Portofino shirt</h4>
+                            <h5  class="offLine">$50.00</h5>
+                            <h5>$30.00</h5>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="images/productImg/p8.jpg">
+                            <h4>Portofino shirt</h4>
+                            <h5 class="offLine">$50.00</h5>
+                            <h5>$30.00</h5>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card">
+                            <img src="images/productImg/p1.jpg">
+                            <h4>Portofino shirt</h4>
+                            <h5  class="offLine">$50.00</h5>
+                            <h5>$30.00</h5>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="product-container">
+                    <div class="row3">
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="images/productImg/p4.jpg">
+                                <h4>Portofino shirt</h4>
+                                <h5  class="offLine">$50.00</h5>
+                                <h5>$30.00</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="images/productImg/p7.jpg">
+                                <h4>Portofino shirt</h4>
+                                <h5  class="offLine">$50.00</h5>
+                                <h5>$30.00</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="images/productImg/p5.jpg">
+                                <h4>Portofino shirt</h4>
+                                <h5 class="offLine">$50.00</h5>
+                                <h5>$30.00</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card">
+                                <img src="images/productImg/p3.jpg">
+                                <h4>Portofino shirt</h4>
+                                <h5  class="offLine">$50.00</h5>
+                                <h5>$30.00</h5>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </dev>
+        <button class="button">LOAD MORE</button>
+    </section>
+    <section>
+        <div class="offer">
+            <div class="offer-container">
+                <div class="row3">
+                    <div class="col-2">
+                        <img src="images/productImg/hat.jpg" >
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Avilable on <strong>RedStore</strong></p>
+                        <h1>Packable Raffia Hat</h1>
+                        <small>This rollable, packable, hand-crocheted raffia sun hat has an inner neoprene band for comfort.</small>
+                        <button class="button2">Explore Now <i class="fas fa-arrow-right-long"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section>
+        <div class="comment-container">
+            <div class="row3">
+                <div class="col-3">
+                    <i class="fas fa-quote-right"  style="font-size: 60px; color: #50a3eb;"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto impedit illo excepturi quisquam qui sapiente distinctio quaerat sint perferendis facilis.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <img src="images/userImg/angelina.jpg" alt="" width="100%">
+                    <h3>Angelina</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-right"  style="font-size: 60px; color: #50a3eb;"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto impedit illo excepturi quisquam qui sapiente distinctio quaerat sint perferendis facilis.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <img src="images/userImg/Elon_Musk.jpg" alt="" width="100%">
+                    <h3>Elon</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fas fa-quote-right" style="font-size: 60px; color: #50a3eb;"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto impedit illo excepturi quisquam qui sapiente distinctio quaerat sint perferendis facilis.</p>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <img src="images/userImg/jack.jpg" alt="" width="100%">
+                    <h3>Jack</h3>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <section>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download app for android and ios</p>
+                    </div>
+                    <div class="footer-col-1">
+                        <img src="images/logo.png" width="30%">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, veritatis?</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog</li>
+                            <li>Community</li>
+                            <li>Social media</li>
+                        </ul>
+                       
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Social Media</h3>
+                        <ul>
+                            <li><i class="fab fa-whatsapp" style="color: green;"></i><a href=""> Whatsapp</a></li>
+                            <li><i class="fab fa-facebook-square"  style="color: rgb(0, 96, 128);"></i><a href=""> Facebook</a></li>
+                            <li><i class="fab fa-instagram"  style="color: rgb(255, 42, 0);"></i><a href=""> Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script> 
+    <script src="js/app.js"></script>
+</body>
+</html>
